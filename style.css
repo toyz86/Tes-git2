@@ -1,0 +1,73 @@
+body {
+	font: 16px/28px arial, sans-serif;
+	background-color: #ffffff;
+	color: #33333;
+}
+
+.header {
+	padding: 20px;
+}
+
+.header .judul {
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 30px;
+	margin-left: 10px;
+	}
+
+.header a {
+	text-decoration: none;
+	color: salmon;
+}
+
+.header a:hover {
+	background-color: #fa5b5b;
+	color: white;
+	padding: 10px;
+}
+
+.banner {
+	height: 350px;
+	background-image: url(img/banner.png);
+	background-size: cover;
+}
+
+.content {
+	padding: 20px;
+}
+
+.content h2 {
+	font-size: 28px;
+	font-weight: bold;
+	margin-top: -5px;
+}
+
+.content .penulis {
+	font-size: 11px;
+	margin-top: -20px;
+}
+
+.content .penulis a {
+	color: salmon;
+	text-decoration: none;
+}
+
+.content p {
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+
+.footer {
+	background-color: #333;
+}
+
+.footer .copy {
+	color: #eaeaea;
+	text-align: center;
+	font-size: 12px;
+}
